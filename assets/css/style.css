@@ -32,6 +32,14 @@ header {
     border: 8px solid black;
 }
 
+.div-con-fondo {
+    background: #1f4037;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037);
+}
+
 #nav {
     display: flex;
 }
@@ -195,18 +203,11 @@ header {
     border: 2px solid black;
 }
 
-.mapa-contenedor {
-    margin-bottom: 20px;
-    overflow: hidden;
-    width: 30%;
-
-}
-
 .mapa {
     border: 10px solid black;
     width: 30%;
     height: 300px;
-    float: left;
+
 }
 
 #contacto {
