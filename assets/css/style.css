@@ -322,6 +322,34 @@ html {
     bottom: 0;
 }
 
+/*     M A P A    */
+
+
+#ubicacion {
+    max-width: 1100px;
+    padding: 100px 0;
+    margin: auto;
+}
+
+#ubicacion .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#ubicacion .google-maps {
+    max-width: 1100px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
 /* CONTACTO */
 
 #contacto {
