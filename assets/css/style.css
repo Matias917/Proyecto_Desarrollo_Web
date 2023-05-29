@@ -136,12 +136,12 @@ html {
 
 #sobrenosotros .contenedor-foto {
     max-width: 400px;
-    margin-right: 80px;
+    margin-right: 100px;
 }
 
 #sobrenosotros .contenedor-foto img {
-    padding: 20px;
-    width: 100%;
+    padding: 10px;
+    width: auto;
     border-radius: 40px;
     background-color: #f3f3f3;
 }
