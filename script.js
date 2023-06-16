@@ -1,3 +1,33 @@
+//Función que me aplica el estilo a la opciòn seleccionada y quita la previamente seleccionada
+function seleccionar(link) {
+  var opciones = document.querySelectorAll('#links a');
+  opciones[0].className = "";
+  opciones[1].className = "";
+  opciones[2].className = "";
+  opciones[3].className = "";
+  opciones[4].className = "";
+  opciones[5].className = "";
+  link.className = "seleccionado";
+
+
+
+  //Hacemos desaparecer el menu una vez que se ha seleccionado una opcion
+  //en modo responsive
+  var x = document.getElementById("nav");
+  x.className = "";
+}
+
+
+//funcion que muestra el menu responsive
+function responsiveMenu() {
+  var x = document.getElementById("nav");
+  if (x.className === "") {
+      x.className = "responsive";
+  } else {
+      x.className = "";
+  }
+}
+
 
 // formulario
 const form = document.querySelector('form');
@@ -86,18 +116,3 @@ form.addEventListener('submit', event => {
     alert(error.message);
   });
 });
-
-
-// botones responsivos para dif pantallas
-
-
-function responsiveMenu() {
-    var x = document.getElementById("links");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-  
-  //a cruzar los dedos
